@@ -1,0 +1,12 @@
+{
+  "extends": "benjick",
+  "rules": {
+    "no-use-before-define": 0,
+    "react/prefer-stateless-function": 0,
+    "no-return-assign": 0,
+    no-param-reassign: ["error", { "props": true, "ignorePropertyModificationsFor": ["self"] }]
+  },
+  "globals": {
+    "fetch": 1
+  }
+}
